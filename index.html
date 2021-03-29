@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess game</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Share+Tech&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--header-->
+      <h1 class="header">GUESS THE NUMBER</h1>
+
+      <!--Message-->
+      <div class="message">
+        <p class="messageText">Take a guess 🤔</p>
+        <p class="messageNumber">?</p>
+      </div>
+
+      <!--Input field-->
+      <div class="input">
+        <input class="textBox" type="number" placeholder="Guess 1-10" />
+        <button class="btn1" type="submit">I Guess 😬</button>
+      </div>
+
+      <!--Score board-->
+      <div class="scoreBoard">
+        <div class="text">
+          <p>Chances : <span class="chances">5</span></p>
+
+          <p>High Score : <span class="highScore">0</span></p>
+        </div>
+        <button class="btn2" type="reset">Play Again 😢</button>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
